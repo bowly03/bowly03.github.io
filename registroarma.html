@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Registro de Armas | NWCL</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/fonts.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="login.html">Login</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </nav>
+    <h1>Registro de Armas</h1>
+    <p>Formulario de Registro de Armas</p>
+    <form id="registroArmaForm">
+        <label for="propietario">Propietario:</label>
+        <input type="text" id="propietario" name="propietario" required><br><br>
+
+        <label for="rut">RUT del Propietario:</label>
+        <input type="text" id="rut" name="rut" required><br><br>
+
+        <label for="tipo_arma">Tipo de Arma:</label>
+        <input type="text" id="tipo_arma" name="tipo_arma" required><br><br>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required><br><br>
+
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo" required><br><br>
+
+        <label for="calibre">Calibre:</label>
+        <input type="text" id="calibre" name="calibre" required><br><br>
+
+        <input type="submit" value="Registrar">
+    </form>
+    <footer class="footer">© 2026 NWCL · New Chile Community - Todos los derechos reservados</footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Agregar Cargo | NWCL</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/fonts.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="login.html">Login</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </nav>
+    <h1>Agregar Cargo</h1>
+    <form id="cargosForm">
+        <label for="cargo">Nombre del sujeto:</label>
+        <input type="text" id="cargo" placeholder="Nombre y Apellido" name="cargo" required><br><br>
+
+        <label for="rut">RUT del sujeto:</label>
+        <input type="text" id="rut" placeholder="Indica RUT" name="rut" required><br><br>
+
+        <label for="fecha">Fecha del cargo:</label>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+
+        <label for="articulo">Artículo(s) Asociado(s):</label>
+        <input type="text" id="articulo" name="articulo" placeholder="Indica articulo(s)" required><br><br>
+
+        <label for="descripcion">Descripción del Cargo:</label><br>
+        <textarea id="descripcion" name="descripcion" placeholder="Indica el motivo" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="pena">Pena Asociada:</label>
+        <input type="checkbox" id="arresto" name="pena" value="arresto">Arresto
+        <input type="checkbox" id="multa" name="pena" value="multa">Multa
+        <input type="checkbox" id="trabajo_comunitario" name="pena" value="trabajo_comunitario">Trabajo Comunitario<br><br>
+
+        <input type="submit" value="Agregar Antecedente">
+    </form>
+    <footer class="footer">© 2026 NWCL · New Chile Community - Todos los derechos reservados</footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

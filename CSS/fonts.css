@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("../fonts/bebas.font.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Kai";
+    src: url("../fonts/LXGWWenKaiMonoTC-Bold.ttf") format("truetype");
+    font-weight: 400;
+}
